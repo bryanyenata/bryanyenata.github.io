@@ -1,0 +1,275 @@
+
+<html 
+	data-useragent="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)"
+	data-platform="Win32">
+  <head>
+  <title>MASTERPIECE!</title>
+      <link rel="stylesheet" type="text/css" href="/plugin/css/style.css">
+      
+      <script type="text/javascript" src="/js/jquery.min.js"></script>
+      <script type="text/javascript" src="/plugin/jquery-jplayer/jquery.jplayer.js"></script>
+      <script type="text/javascript" src="/plugin/ttw-music-player-min.js"></script>
+      <script type="text/javascript" src="playlist.js"></script>
+      
+      <script type="text/javascript">
+          $('body').ttwMusicPlayer(playlist, {
+        tracksToShow:6,
+        autoPlay:false,
+        },
+        jPlayer:{swfPath:'../plugin/jquery-jplayer'});
+
+   
+   };</script>
+      
+      
+  <link rel="stylesheet" href="soundboard.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <!-- <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> -->
+    <script>
+
+//      function randomExplative(){
+//        var clips = ["die_01", "fuck_02", "bitch", "cock_sucker", "fuck_01", "gdit", "oh", "piece_of_shit"];
+//        var randClip = Math.floor((Math.random() * clips.length));
+//        console.log(clips.length);
+//        var audio = new Audio('audio/'+clips[randClip]+'.mp3');
+//        audio.play();
+//      }
+
+      function playAudio(clip){
+        var audio = new Audio('audio/'+clip+'.mp3');
+            audio.play();
+      }
+        
+      function playAudioOGG(clip){
+        var audio = new Audio('audio/'+clip+'.ogg');
+            audio.play();
+      }
+        
+    </script>
+    <style>
+      html, body{
+        margin: 0;
+        //padding: 25px;
+        font-family: "Helvetica-Neue", Helvetica, sans-serif;
+      }
+      body{
+        background: url(wallpaper.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+      button{
+        padding: 25px 15px;
+        margin: 5px;
+        text-transform: capitalize;
+      }
+      header{
+        background: #fff;
+        padding: 5px;
+        margin-bottom: 20px;
+      }
+
+      h1{
+        font-weight: bold;
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+          margin-top: 27px;
+        margin-bottom: 18px;
+        color: mediumpurple;
+      }
+    
+      p{
+        color: gold;
+      }
+        
+      h2{
+        color: white;
+      }
+        
+      footer{
+        text-align: center;
+        background: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 5px 0;
+        margin-top: 20px;
+      }
+
+      a{
+        color: #000;
+        text-decoration: none;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+
+      .wrapper{
+        margin: 0 20px;
+      }
+
+      @media (max-width: 900px){
+
+        button{
+          width: 100%;
+          margin: 0;
+          padding: 15px 0;
+          background: #fff;
+          border: none;
+          font-size: 16px;
+        }
+        button:first-child{
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+        button:last-child{
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+        button:nth-child(2n+1){
+          background: #eee;
+        }
+
+        footer{
+          position: static;
+          font-size: 22px;
+          padding: 8px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1>GAYA Soundboard</h1>
+      <h2>SOUNDS</h2>
+        <!-- Alex -->
+        <button onclick="playAudio('its_2');">It's 2PM?!</button>
+        <button onclick="playAudio('deal_with');">Deal With My Own Problems</button>
+        <button onclick="playAudio('well_he_be_ded');">Well He Be DED</button>
+        
+        <!-- Jen/Mahadewi -->
+        <button onclick="playAudio('chinaman_talking');">Why is this chinaman talking to me?</button>
+        <button onclick="playAudio('your_business');">Your Business Is With Me</button>
+        <button onclick="playAudio('peasant');">Peasant</button>
+        <button onclick="playAudio('commentary');">Commentary</button>
+        <button onclick="playAudio('wut');">What Did She Say?</button>
+        <button onclick="playAudio('alex');">Alex!</button>
+        <button onclick="playAudio('unfortunate');">How Unfortunate I Am</button>
+        
+        <!-- Stranger -->
+        <button onclick="playAudio('do_you_know_who_i_am');">Do you know who I am?!</button>
+        <button onclick="playAudio('laugh');">HAHAHAHAHA</button>
+        <button onclick="playAudio('level_90');">Level 90 Witch Doctor</button>
+        <button onclick="playAudio('10_virgins');">10 Virgins</button>
+        <button onclick="playAudio('stupid_stranger');">STUPID</button>
+        <button onclick="playAudio('10_stupid_virgins');">10 Stupid Virgins</button>
+        <button onclick="playAudio('stupid_duck');">Stupid Duck</button>
+        <button onclick="playAudio('treatment');">Treatment Starts</button>
+        <button onclick="playAudio('waitaaa');">WAITTTAAAA</button>
+        <button onclick="playAudio('witch_doctor');">A Witch Doctor</button>
+        <button onclick="playAudio('in_your_mind');">In Your Mind</button>
+        
+        
+        <!-- Suryanegara -->
+        <button onclick="playAudio('china');">你会说中文吗？</button>
+        <button onclick="playAudio('introduction');">My Name Is...</button>
+        <button onclick="playAudio('must_be_chinese');">He must be chinese!</button>
+        <button onclick="playAudio('mylord');">My Lord</button>
+        <button onclick="playAudio('eat_drink');">Eat with me, drink with me</button>
+        <button onclick="playAudio('give_you_my_kujang');">I want to give you my kujang</button>
+        <button onclick="playAudio('imagine_yourself');">Umm... Use your own imagination...</button>
+        <button onclick="playAudio('aiyai');">Aiyaii</button>
+        <button onclick="playAudio('ooh');">Ooohh</button>
+        <button onclick="playAudio('no');">No</button>
+        <button onclick="playAudio('savior_awakens');">My Savior Awakens!</button>
+        <button onclick="playAudio('vandenkrap');">General Van Den KRAP</button>
+        <button onclick="playAudio('not_my_brother');">You are NOT my brother!</button>
+
+        
+        <!-- Sambarana -->
+        <button onclick="playAudio('brother_samba');">Brother...</button>
+        <button onclick="playAudio('dimwit');">Dimwit</button>
+        <button onclick="playAudio('glad_you_noticed');">I'm glad you noticed me too father</button>
+        <button onclick="playAudio('man_sized_rabbit');">Man Sized Rabbit</button>
+        <button onclick="playAudio('what_do_you_mean');">WHAT DO YOU MEAN?!</button>
+        <button onclick="playAudio('i_am');">I Am</button>
+        <button onclick="playAudio('im_what');">I Am... What?</button>
+        <button onclick="playAudio('father');">Father what happened?!</button>
+        <button onclick="playAudio('you');">YOU?!</button>
+        <button onclick="playAudio('deranged_god');">A Deranged God</button>
+        <button onclick="playAudio('wasnt_me');">It wasn't me, it was my wife!</button>
+        <button onclick="playAudio('spy');">Must Be a Spy</button>
+
+        <!-- Cayarini -->
+        <button onclick="playAudio('ah');">Ahhh</button>
+        <button onclick="playAudio('ahh');">AH!</button>
+        <button onclick="playAudio('why_is_this_my_life');">OH WHY IS THIS MY LIFE?!</button>
+        <button onclick="playAudio('so_useless');">YOU ARE SO USELESS</button>
+        <button onclick="playAudio('no_balls');">Never Had The Balls</button>
+        <button onclick="playAudio('faith');">I Had Faith In You</button>
+        <button onclick="playAudio('haha_cayarini');">Hahahaha</button>
+        
+        <!-- King Kanoman -->
+        <button onclick="playAudio('useless_husband');">Useless Husband</button>
+        <button onclick="playAudio('useless_husband_of_the_east');">Useless Husband Of The East</button>
+        <button onclick="playAudio('the_chinaman');">The Chinaman</button>
+        
+        <!-- Mark -->
+        <button onclick="playAudio('nakamurasan');">Nakamura-san!!!</button>
+        <button onclick="playAudio('good_in_bed');">That Good In Bed</button>
+        <button onclick="playAudio('girl_at_6');">See the girl at 6 o'clock?</button>
+        <button onclick="playAudio('dibs');">Dibs</button>
+        
+        <!-- Van Den Kaap -->
+        <button onclick="playAudio('doesnt_help_me');">That doesn't help me at all!</button>
+        <button onclick="playAudio('more_balls');">More Balls</button>
+        <button onclick="playAudio('stupid');">Stupid</button>
+        <button onclick="playAudio('here_and_now');">Here and Now</button>
+        
+        <!-- Michelle -->
+        <button onclick="playAudio('your_friend_too');">He's your friend too!</button>
+        
+        <button onclick="playAudioOGG('hm');">Hm</button>
+        
+        
+        
+        
+    
+      <br/>
+      <br/>
+    
+    <h2>SONGS</h2>
+    
+        <div class="container">
+            
+            <p>Townsquare</p>
+            <audio controls>
+                <source src="audio/townsquare.mp3" type="audio/mpeg">
+            </audio>
+            <p>Celebration</p>
+            <audio controls>
+                <source src="audio/celebration.mp3" type="audio/mpeg">
+            </audio>
+            <p>That's My Wife</p>
+            <audio controls>
+                <source src="audio/cayarini_sambarana.mp3" type="audio/mpeg">
+            </audio>
+            <p>The Stand</p>
+            <audio controls>
+                <source src="audio/theme_song_cut.mp3" type="audio/mpeg">
+            </audio>
+            <p>Will Always Be</p>
+            <audio controls>
+                <source src="audio/theme_song.mp3" type="audio/mpeg">
+            </audio>
+            <p>Till the End of Time</p>
+            <audio controls>
+                <source src="audio/till_the_end_of_time.mp3" type="audio/mpeg">
+            </audio>
+    <br/>
+    <br/>
+            
+            <div id="title"></div>
+    </div>
+  </body>
+</html>
