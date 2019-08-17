@@ -1,0 +1,22 @@
+{
+  "name": "bryan-yenata.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryan-yenata/bryan-yenata.github.io.git"
+  },
+  "author": "Bryan Yenata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryan-yenata/bryan-yenata.github.io/issues"
+  },
+  "homepage": "https://github.com/bryan-yenata/bryan-yenata.github.io#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}
