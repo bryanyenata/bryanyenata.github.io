@@ -69,6 +69,10 @@ a {
     color: #EA0001;
 }
 
+.footer-img {
+    size: 0em;
+}
+
 
 /* Animations */
 .zoom {
@@ -87,3 +91,4 @@ a {
 .rotate.hover {
     transform: rotate(360deg);
 }
+
