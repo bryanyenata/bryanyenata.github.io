@@ -5,7 +5,7 @@ body {
 #console {
 	font-family: courier, monospace;
 	color: #fff;
-	max-width:750px;
+	max-width:800px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:100px;
@@ -34,15 +34,11 @@ a {
 	font-weight: bold;
 }
 
-#n {
-	color: #c800ff;
-	font-weight: bold;
-}
-
 #k {
 	animation: change 1s;
 	font-weight: bold;
 	font-size: 1.18em;
+	animation-iteration-count: infinite;
 }
 
 #op{
@@ -59,10 +55,26 @@ a {
 
 #indo {
 	animation: indonesia 1s;
+	animation-iteration-count: infinite;
 }
 
 #sing {
 	animation: singapore 1s;
+	animation-iteration-count: infinite;
+}
+
+#n {
+	/* color: #c800ff; */
+	/* font-weight: bold; */
+}
+
+#n:before {
+	content: "Welcome!";
+	-webkit-animation-name: welcome;
+	-webkit-animation-duration: 10s;
+	animation-name: welcome;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
 }
 
 @keyframes indonesia {
@@ -77,4 +89,12 @@ a {
 	49% { color:  #f00; }
 	50% { color: #f00; }
 	100% { color: #fff; }
+}
+
+@keyframes welcome {
+	10% {content: "Welcome!";}
+	30% {content: "Selamat Datang!";}
+	50% {content: "ようこそ！";}
+	70% {content: "欢迎观临！";}
+	90% {content: "Välkommen!";}
 }

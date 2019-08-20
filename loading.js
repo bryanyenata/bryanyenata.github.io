@@ -72,7 +72,8 @@ var Typer={
 			$("#console").html($("#console").html().substring(0,cont.length-1));
 
 		else
-			this.write("|"); // else write it
+			stop();
+			// this.write("|"); // else write it
 	}
 }
 
@@ -90,7 +91,7 @@ function replaceUrls(text) {
 	}
 }
 
-Typer.speed=6;
+Typer.speed=3;
 Typer.file="bryanyenata.txt";
 Typer.init();
 
