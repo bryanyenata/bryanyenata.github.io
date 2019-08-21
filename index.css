@@ -92,9 +92,14 @@ a {
 }
 
 @keyframes welcome {
-	10% {content: "Welcome!";}
-	30% {content: "Selamat Datang!";}
-	50% {content: "ようこそ！";}
-	70% {content: "欢迎观临！";}
-	90% {content: "Välkommen!";}
+	0% {content: "Welcome!";}
+	10% {content: "Selamat Datang!";}
+	20% {content: "ようこそ！";}
+	30% {content: "欢迎观临！";}
+	40% {content: "환영합니다!";}
+	50% {content: "¡Bienvenido!";}
+	60% {content: "Herzlich Willkommen!";}
+	70% {content: "Bienvenue!";}
+	80% {content: "Välkommen!";}
+	90% {content: "Добро пожаловать!";}
 }
