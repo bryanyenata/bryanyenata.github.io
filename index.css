@@ -75,6 +75,8 @@ a {
 	animation-name: welcome;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
+	/* font-style: oblique; */
+	font-weight: bold;
 }
 
 @keyframes indonesia {
@@ -96,10 +98,10 @@ a {
 	10% {content: "Selamat Datang!";}
 	20% {content: "ようこそ！";}
 	30% {content: "欢迎观临！";}
-	40% {content: "환영합니다!";}
+	40% {content: "환영합니다！";}
 	50% {content: "¡Bienvenido!";}
 	60% {content: "Herzlich Willkommen!";}
 	70% {content: "Bienvenue!";}
 	80% {content: "Välkommen!";}
-	90% {content: "Добро пожаловать!";}
+	90% {content: "Добро пожаловать！";}
 }

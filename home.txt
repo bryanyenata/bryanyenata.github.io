@@ -1,0 +1,2 @@
+<p>This home page is currently under development. <!-- ジョーカーは最高です -->Please wait until this page is updated for some awesome content about me and more!</p><!-- JokerMonaSkullPantherFoxQueenOracleNoirCrow -->
+<p>For now, <a id="a" href="index.html">you can go back to the loading screen page!</a> <br><br><br><span id="seeyou"></span> </p>
