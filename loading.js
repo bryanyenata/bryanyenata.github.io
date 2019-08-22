@@ -4,6 +4,7 @@ var Typer={
 	index:0,
 	speed:2,
 	file:"",
+	lock:false,
 	accessCount:0,
 	deniedCount:0,
 	init: function(){
@@ -71,9 +72,9 @@ var Typer={
 		if(cont.substring(cont.length-1,cont.length)=="|")
 			$("#console").html($("#console").html().substring(0,cont.length-1));
 
-		else
-			stop();
-			// this.write("|"); // else write it
+		// else
+			// stop();
+		// 	this.write("|"); // else write it
 	}
 }
 
@@ -91,6 +92,16 @@ function replaceUrls(text) {
 	}
 }
 
+function scrollToTop(scrollDuration) {
+    var scrollStep = -window.scrollY / (scrollDuration / 15),
+        scrollInterval = setInterval(function(){
+        if ( window.scrollY != 0 ) {
+            window.scrollBy( 0, scrollStep );
+        }
+        else clearInterval(scrollInterval); 
+    },15);
+}
+
 Typer.speed=4;
 Typer.file="bryanyenata.txt";
 Typer.init();
@@ -101,11 +112,6 @@ function t() {
 
 	if (Typer.index > Typer.text.length) {
 		clearInterval(timer);
-	}
-}
-
-function close_window() {
-	if (confirm("Close Window?")) {
-		window.top.close();
+		setTimeout(function() {scrollToTop(400)},1000);
 	}
 }
