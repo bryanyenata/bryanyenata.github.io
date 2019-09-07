@@ -41,6 +41,14 @@ a {
 	animation-iteration-count: infinite;
 }
 
+#k::before{
+	content: " >>> Go to the home page!";
+}
+
+#k:hover:before{
+	content: " >>> ホームページへ";
+}
+
 #op{
     color: #888888;
 }
@@ -68,7 +76,7 @@ a {
 	/* font-weight: bold; */
 }
 
-#n:before {
+#n::before {
 	content: "Welcome!";
 	-webkit-animation-name: welcome;
 	-webkit-animation-duration: 10s;

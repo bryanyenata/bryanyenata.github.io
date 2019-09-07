@@ -6,5 +6,5 @@
 <p>My hobbies include video games, sports, videography　and following the latest technology. <br><br><br>Plus, I am currently developing games on the side for fun (with Unity and UE4). I haven't updated my Github with the games, but the repository will surely grow as I constantly develop more. <a href="https://github.com/bryan-yenata" target="_blank"> Here's a link to my Github</a>.</p><!-- njkansjkvnjannoanofoasocjoajofjavnanzjnvfjkdfnkjasosfhaojfisjao -->
 <p>I am also active on some social media. Here are some that I use: <br> <a href="https://www.linkedin.com/in/bryanyenata/" target="_blank">LinkedIn</a> <br> <a href="https://www.facebook.com/muayanfrost" target="_blank">Facebook</a> <br> <a href="https://twitter.com/MuayanFrost" target="_blank">Twitter</a> and <br> <a href="https://www.instagram.com/muayanfrost/" target="_blank">Instagram</a>.</p>
 <p>You can reach me by phone at: <br> (SG) +65 86186109 <br> (ID) +62818968410 <br> </p> <!-- slightdelayhere--><p>Or hit me up on email at <!-- oliveoil --><a href="mailto:bryanyenata@yahoo.co.id">bryanyenata@yahoo.co.id</a>.</p><!-- 9/11wasaninsidejobjetfuelcantmeltsteelbeams -->
-<a href="home.html"><span id="k"> >>> Go to the home page!</span></a>
+<a href="home.html"><span id="k"></span></a>
 <br><br>
